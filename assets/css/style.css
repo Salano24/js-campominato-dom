@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.genera{
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+
+[class*="cell"]{
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.cell10{
+    width: calc(100% / 10);
+}
+
+.cell9{
+    width: calc(100% / 9);
+}
+
+.cell7{
+    width: calc(100% / 7);
+}
+
+body{
+    background-color: orange;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.azzurro{
+    background-color:deepskyblue ;
+}
+
+.red{
+    background-color: red;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5vh 0;
+
+}
+
+button{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+
+}
